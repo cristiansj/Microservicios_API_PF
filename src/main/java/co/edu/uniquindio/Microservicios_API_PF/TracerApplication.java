@@ -7,7 +7,8 @@ import javax.ws.rs.core.Application;
 /**
  *
  */
-@ApplicationPath("/data")
+@ApplicationPath("/api")
 @ApplicationScoped
-public class Microservicios_API_PFRestApplication extends Application {
+public class TracerApplication extends Application {
+
 }

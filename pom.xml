@@ -8,6 +8,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>cucumber-test</module>
+    <module>Tracer</module>
   </modules>
   <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -16,7 +17,6 @@
     <payaraVersion>6.2023.2</payaraVersion>
     <final.name>Microservicios_API_PF</final.name>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>org.eclipse.microprofile</groupId>
