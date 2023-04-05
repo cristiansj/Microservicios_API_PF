@@ -16,4 +16,6 @@ public class UsuarioDTO implements Serializable {
 
     private final String clave;
 
+
+
 }

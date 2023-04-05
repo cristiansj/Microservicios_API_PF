@@ -5,6 +5,6 @@ Feature: La API proporciona el servicio para buscar un envio dado si identificad
             Para encontrar su información detallada
     Given Soy un usuario que estoy autenticado en el sistema
     And  existe un pedido con el identificador "123"
-    When invoco el servicio de busqueda de envios engresando el id "123"
+    When invoco el servicio de busqueda de envios ingresando el id "123"
     Then obtengo un status code 200
     And la información del envio
