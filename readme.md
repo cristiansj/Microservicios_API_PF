@@ -11,7 +11,7 @@ The generation of the executable jar file can be performed by issuing the follow
 
 This will create an executable jar file **Microservicios_API_PF-microbundle.jar** within the _target_ maven folder. This can be started by executing the following command
 
-    java -jar target/Microservicios_API_PF-microbundle.jar
+    java -jar Tracer/target/Tracer-microbundle.jar --nocluster
 
 
 
