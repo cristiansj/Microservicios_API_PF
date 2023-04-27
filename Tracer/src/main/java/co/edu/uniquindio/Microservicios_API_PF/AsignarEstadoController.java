@@ -1,4 +1,4 @@
-package co.edu.uniquindio.Microservicios_API_PF;
+package co.edu.uniquindio.Microservicios_API_PF.model;
 
 import co.edu.uniquindio.Microservicios_API_PF.model.ReferenceFormatException;
 import jakarta.inject.Singleton;
@@ -12,8 +12,7 @@ import jakarta.ws.rs.core.Response;
  */
 @Path("/formato")
 @Singleton
-public class FormatoController {
-
+public class AsignarEstadoController {
     @GET
     @Path("{id_pedido}")
     public Response validarFormato(@PathParam("id_pedido") String id_pedido) throws ReferenceFormatException {
